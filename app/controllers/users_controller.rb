@@ -4,8 +4,7 @@ class UsersController < ApplicationController
   def index
     @users = User.all
     @current_user = User.find(current_user.id)
-    @friends=@current_user.friendships.where(confirmed: true)
-   
+    @friends = @current_user.friendships.where(confirmed: true)
   end
 
   def show
@@ -18,7 +17,7 @@ class UsersController < ApplicationController
     b = Friendship.where(user_id: params[:id], friend_id: current_user.id)
     if b.exists?
       b.update_all(confirmed: true)
-      Friendship.create(user_id: current_user.id, friend_id: params[:id],confirmed: true)
+      Friendship.create(user_id: current_user.id, friend_id: params[:id], confirmed: true)
       redirect_to users_path
       return
     end

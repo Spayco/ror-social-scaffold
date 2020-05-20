@@ -18,8 +18,8 @@ class User < ApplicationRecord
     end
     number
   end
+
   def isfriend?(id)
-    Friendship.where(user_id: self.id,friend_id: id,confirmed: true).exists?
+    Friendship.where(user_id: self.id, friend_id: id, confirmed: true).exists?
   end
-  
 end

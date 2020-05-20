@@ -57,13 +57,24 @@ Open `http://localhost:3000/` in your browser.
 
 > Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
 
-### Deployment
+### Live Version
 
-TBA
+You Can Check The Live Version [Here](https://dry-bastion-33042.herokuapp.com/users/sign_in)
 
 ## Authors
 
-TBA
+👤 **SpaYco**
+
+- Github: [@SpaYco](https://github.com/SpaYco)
+- Twitter: [@iSpaYco](https://twitter.com/iSpaYco)
+- Linkedin: [Aziz Mejri](https://www.linkedin.com/in/spayco/)
+- Hackernoon: [@SpaYco](https://hackernoon.com/@SpaYco)
+
+👤 **Tahir Ahmad**
+
+- Github: [@tahirbhalli](https://github.com/Tahirbhalli)
+- Twitter: [@tahirbhalli](https://twitter.com/tahirbhalli)
+- Linkedin: [Tahir Ahmad](https://www.linkedin.com/in/tahir-ahmad-483035164/)
 
 ## 🤝 Contributing
 
