@@ -6,6 +6,7 @@ ruby '2.7.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4'
 # Use postgresql as the database for Active Record
+# gem 'sqlite3', '~> 1.4'
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -41,10 +42,15 @@ gem 'devise'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'capybara'
+  gem 'rspec'
+  gem 'rspec-rails'
 end
 
 group :test do
-  gem 'rspec'
+  gem 'selenium-webdriver'
+  # Easy installation and use of web drivers to run system tests with browsers
+  gem 'webdrivers'
 end
 
 group :development do
