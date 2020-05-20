@@ -11,7 +11,7 @@ describe 'Friend request', type: :feature do
     visit '/users/sign_in'
     within('form') do
       fill_in 'user[email]', with: 'user@example.com'
-      fill_in 'user[password]',	with: 'password1234'
+      fill_in 'user[password]', with: 'password1234'
     end
     click_button 'commit'
   end
