@@ -6,7 +6,6 @@ class Friendship < ApplicationRecord
   private
 
   def check_same_user
-    raise ActiveRecord::Rollback if Friendship.where(user_id: user_id, friend_id: friend_id).exists? ||
-                                    Friendship.where(user_id: friend_id, friend_id: user_id).exists?
+    raise ActiveRecord::Rollback if Friendship.where(user_id: user_id, friend_id: friend_id).exists?
   end
 end
