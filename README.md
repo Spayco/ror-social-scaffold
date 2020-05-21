@@ -59,7 +59,7 @@ Open `http://localhost:3000/` in your browser.
 
 ### Live Version
 
-You Can Check The Live Version [Here](https://dry-bastion-33042.herokuapp.com/users/sign_in)
+You Can Check The Live Version [Here](https://dry-bastion-33042.herokuapp.com)
 
 ## Authors
 
