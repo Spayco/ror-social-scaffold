@@ -47,7 +47,7 @@ describe 'Post controller and view spec', type: :feature do
     end
     click_button 'commit'
     within('#new_comment') do
-      fill_in 'comment[content]',	with: '1st comment'
+      fill_in 'comment[content]', with: '1st comment'
     end
     click_button 'cmt'
     expect(page).to have_content '1st comment'
