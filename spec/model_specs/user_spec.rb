@@ -26,6 +26,6 @@ describe 'Friend request', type: :feature do
   end
   it 'mutual friend' do
     visit 'users'
-    expect(page).to have_content 'mutual friends' 
+    expect(page).to have_content 'mutual friends'
   end
 end
