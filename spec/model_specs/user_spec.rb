@@ -24,4 +24,8 @@ describe 'Friend request', type: :feature do
     click_link 'send request'
     expect(page).to have_content 'cancel request'
   end
+  it 'mutual friend' do
+    visit 'users'
+    expect(page).to have_content 'mutual friends' 
+  end
 end
